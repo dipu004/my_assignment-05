@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CDN-link -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="max-w-screen-xl mx-auto">
+    <section class="  bg-white rounded-lg">
+        <header>
+          <nav>
+              <div class="navbar shadow-md rounded-lg">
+           <div class="flex-1 gap-2">
+              <!-- logo-main-div -->
+              <div>
+                  <!-- logo img -->
+                   <img class="w-8 " src="/assets/logo.png" alt="">
+                </div>
+                <!-- logo-title -->
+                <div class="">
+                  <a class=" text-2xl">Dev<span class="font-bold">Board</span></a>
+                </div>
+           </div>
+                  <div class="flex-none">
+                <button id="exit-btn" class="bg-[#412AD8] p-3 text-white text-xl rounded-lg">Back to Desk</button>
+                  </div>
+                </div>
+          </nav>
+        </header>
+ </section>
+<!-- End-navbar -->
+ <section class="my-7">
+ <div class="shadow-md p-3 rounded-lg mt-4">
+    <h1 class="mb-5 font-bold text-xl">Question-1: What are the different ways to select an element in DOM?</h1>
+    <hr class="border-dashed">
+    <p class="text-gray-500 text-lg mt-5 ">There are different ways to select element in dom.
+        Example: 1.Class Selector 2.Id selector 3.query selector etc
+    </p>
+ </div>
+ <div class="shadow-md p-3 rounded-lg mt-4">
+    <h1 class="mb-5 font-bold text-xl">Question-2: What is the differetn between innerHTML ,innerText , and TextContent?</h1>
+    <hr class="border-dashed">
+    <p class="text-gray-500 text-lg mt-5 ">TextContent is all text contained by an element and all its children that are for formatting purposes only. innerText returns all text contained by an element and all its Child elements. innerHTML returns all text, icluding html tags . that is contained by an element.
+    </p>
+ </div>
+ <div class="shadow-md p-3 rounded-lg mt-4">
+    <h1 class="mb-5 font-bold text-xl">Question-3: What is event delegation in DOM?</h1>
+    <hr class="border-dashed">
+    <p class="text-gray-500 text-lg mt-5 ">
+        Event delegation is a technique in javaScript where a single event is attached to a parent element of attaching event listeners to multiple child elements.
+    </p>
+ </div>
+ <div class="shadow-md p-3 rounded-lg mt-4">
+    <h1 class="mb-5 font-bold text-xl">Question-4:What is Event bubling in DOm? </h1>
+    <hr class="border-dashed">
+    <p class="text-gray-500 text-lg mt-5 ">
+        What happens when you add an event listener to a parent element, and the user clicks the child element.
+
+    </p>
+ </div>
+ <div class="shadow-md p-3 rounded-lg mt-4">
+    <h1 class="mb-5 font-bold text-xl">Question-5: How do you create , add , remove elements using javaScript?</h1>
+    <hr class="border-dashed">
+    <p class="text-gray-500 text-lg mt-5 ">Need to create document.createElement() for create and add for appendchild , remove for remove child().
+    </p>
+ </div>
+ </section>
+
+ <script src="/script/exit.js"></script>
+</body>
+</html>
