@@ -1,3 +1,3 @@
 document.getElementById("discover-something").addEventListener('click', function(){
-           window.location.href = "/html/main.html"
+           window.location.href = "/main.html"
 })
