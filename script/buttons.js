@@ -9,11 +9,11 @@ let count = 0;
 const blueButtons = document.querySelectorAll(".blue-btn");
     for(const btn of blueButtons){
         btn.addEventListener("click", function(event){
-            if(convertedDecrement === 1){
+            if(convertedDecrement === 0){
                 alert("congrates You have complete all the current task")
                }
             count++;
-           alert("board update succesfully");
+           alert("board updated successfully");
         
             event.target.setAttribute("disabled","true")
              event.target.style.opacity = "0.1";
