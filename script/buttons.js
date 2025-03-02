@@ -9,12 +9,13 @@ let count = 0;
 const blueButtons = document.querySelectorAll(".blue-btn");
     for(const btn of blueButtons){
         btn.addEventListener("click", function(event){
-            if(convertedDecrement === 0){
-                alert("congrates You have complete all the current task")
-               }
+            
             count++;
            alert("board updated successfully");
+           
         
+
+          
             event.target.setAttribute("disabled","true")
              event.target.style.opacity = "0.1";
 
@@ -23,6 +24,7 @@ const blueButtons = document.querySelectorAll(".blue-btn");
         
              const decrementNumber = convertedDecrement - count;
              decrementCount.innerText = decrementNumber;
+            
 
               const incrementNumber = convertedIncrement + count;
              incrementCount.innerText = incrementNumber;
@@ -41,5 +43,9 @@ const blueButtons = document.querySelectorAll(".blue-btn");
             p.style.borderRadius = '8px'
         
             addHistoy.appendChild(p);
+            if(decrementNumber === 0){
+                alert("congrates!!! You have complete all the current task")
+               }
+            
         })
     }
